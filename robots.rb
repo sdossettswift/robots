@@ -6,11 +6,11 @@ class Robot
     end
 
     def say_hi
-        return "Hi, #{Robot.name}!"
+        return "Hi, #{name}!"
     end
 
     def say_name
-        return "My name is #{Robot.name}."
+        return "My name is #{name}."
     end
 
 end
